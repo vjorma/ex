@@ -1,4 +1,4 @@
-# Adding a not in Single Page App version
+# Adding a note in Single Page App version
 
 [//]: # ( University of Helsinki                                               )
 [//]: # ( Full Stack Open, Excercice 0.6                                       )
