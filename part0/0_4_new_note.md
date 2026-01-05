@@ -24,6 +24,7 @@ sequenceDiagram
         
     B ->>+ S: GET https://studies.cs.helsinki.fi/exampleapp/notes
     S -->>- B: html with heading and form only
+    Note right of B: The html initiates fetching of css and javascript.
     
     B ->>+ S: GET stylesheet https://studies.cs.helsinki.fi/exampleapp/main.css
     S -->>- B: The stylesheet
