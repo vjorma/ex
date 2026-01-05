@@ -16,7 +16,6 @@ sequenceDiagram
     participant S as Server
 
     B ->> S: GET https://studies.cs.helsinki.fi/exampleapp/spa
-    Activate B
 
     S -->> B: html spa
     Note right of B: The html initiates fetching of css and javascript.
